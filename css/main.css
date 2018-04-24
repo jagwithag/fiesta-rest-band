@@ -1,32 +1,6 @@
 body
 {
-font-family: 'Flamenco', cursive;
+font-family: 'Lora', serif;
 font-size: 22px;
 background-color: #FF8362;
-}
-
-ul {
-list-style-type: none;
-margin: auto;
-         position: relative;
-overflow: hidden;
-background-color: #3C4663;
-}
-
-li {
-float: left;
-}
-
-li a, #logo{
-       color: #FFFFFF;
-  text-decoration: none;
-  padding: 10px;
-  text-align: right;
-}
-
-.navigation
-{
-       position: absolute;
-  top: 45%;
-  left: 75%;
 }
