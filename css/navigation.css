@@ -1,0 +1,31 @@
+body
+		{
+			background-color: #FF8362;
+			text-decoration: none;
+		}
+
+.parent {
+  display: flex;
+  width: 100%;
+  height: 100px;
+  align-items: center; /* Align Items Vertically */
+  justify-content: space-between; /* Align Items Horizontally (with equal space in between each of them */
+  background: #eee;
+}
+
+.children {
+  display: flex;
+}
+
+.child {
+  margin: 0 5px;
+  padding: 0 5px;
+  font-size: 30px;
+  background: #ccc;
+  color: #000;
+}
+
+.right-children
+{
+	background-color: #000000;
+}
