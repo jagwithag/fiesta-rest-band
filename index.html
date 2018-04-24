@@ -2,16 +2,17 @@
 <html>
     <head>
         <title>The RestBand</title>
-        <link href="https://fonts.googleapis.com/css?family=Lora" rel="stylesheet"> 
+        <link href="https://fonts.googleapis.com/css?family=Lora" rel="stylesheet">
+	    <link rel="stylesheet" href="css/main.css"/>
     </head>
     <body>
         <div id="nav"></div>
         <p>Bach</p>
-        <link rel="stylesheet" href="css/main.css"/>
     </body>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js">
-	</script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 	<script>
-		$("#nav").load(navigation.html);
+		$(document).ready(function(){
+        $("#div1").load("demo_test.txt");
+});
 	</script>
 </html>
