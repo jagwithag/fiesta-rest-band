@@ -1,9 +1,3 @@
-body
-{
-  background-color: #FF8362;
-  text-decoration: none;
-}
-
 .parent {
   display: flex;
   width: 100%;
@@ -11,13 +5,29 @@ body
   align-items: center; /* Align Items Vertically */
   justify-content: space-between; /* Align Items Horizontally (with equal space in between each of them */
   background: #559e96;
+  text-decoration: none;
+  position: fixed;
+  top:0px;
+  left: 0px;
 }
 
-.children {
+img, parent{
+  height: 90px;
+  padding: 10px;
+}
+
+a, child{
+  text-decoration: none;
+  color: white;
+}
+a:hover{
+  color: #FF8362;
+}
+.children, parent {
   display: flex;
 }
 
-.child {
+.child, parent {
   margin: 0 5px;
   padding: 0 5px;
   font-size: 30px;
